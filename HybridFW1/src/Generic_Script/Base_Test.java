@@ -31,7 +31,7 @@ public WebDriver driver;
 			GenericScreenShot.getphoto(driver);
 			
 		}
-		driver.close();
+		driver.quit();
 	}
 
 
